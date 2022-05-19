@@ -11,4 +11,4 @@
 
  COPY linter.py ./linter.py
 
- CMD ["python", "/linter.py"]
+ CMD ["sudo", "python", "./linter.py"]
